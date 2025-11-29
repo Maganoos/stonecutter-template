@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Maganoos"
+  ],
+  "contact": {
+    "sources": "https://github.com/Maganoos/stonecutter-template"
+  },
+  "license": "MIT",
+  "icon": "assets/template/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.magkari.mc.template.TemplateMod"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "${minecraft}"
+  }
+}

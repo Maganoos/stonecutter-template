@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "eu.magkari.mc.template.mixin",
+  "compatibilityLevel": "${java}",
+  "mixins": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
